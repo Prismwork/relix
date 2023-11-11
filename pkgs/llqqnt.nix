@@ -3,12 +3,13 @@
 let
   llSrc = builtins.fetchGit {
     url = "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT";
-    rev = "4fad0cb92d6881438abfa0ffc2934689b6828dd3";
+    rev = "ce0360ed426f27957a86fe3941717bd667b28390";
     submodules = true;
   };
 in
 pkgs.qq.overrideAttrs (oldAttrs: {
   pname = "llqqnt";
+  version = "3.1.2-13107";
 
   postInstall = ''
     mkdir $out/opt/QQ/resources/app/LiteLoader
