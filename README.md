@@ -4,11 +4,11 @@
 
 Prismwork's Nix expressions.
 
-Currently modified from [Prismwork/llqqnt-nix]("https://github.com/Prismwork/llqqnt-nix") and served only as a package source, more will be added later.
+Currently modified from [Prismwork/llqqnt-nix](https://github.com/Prismwork/llqqnt-nix) and served only as a package source, more will be added later.
 
 ### Features
 
 #### Packages
 
-- `llqqnt` - QQNT with [LiteLoaderQQNT]("https://github.com/LiteLoaderQQNT/LiteLoaderQQNT") installed
-  - Currently not working due to [this bug]("https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/issues/166")
+- `llqqnt` - QQNT with [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) installed
+  - Currently not working due to [this bug](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/issues/166)
