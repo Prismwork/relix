@@ -9,7 +9,6 @@ let
 in
 pkgs.qq.overrideAttrs (oldAttrs: {
   pname = "llqqnt";
-  version = "3.1.2-13107";
 
   postInstall = ''
     mkdir $out/opt/QQ/resources/app/LiteLoader
